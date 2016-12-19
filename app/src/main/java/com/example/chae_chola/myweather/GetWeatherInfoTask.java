@@ -42,7 +42,7 @@ public class GetWeatherInfoTask extends AsyncTask<String,Void,List<Map<String,Ob
         progressDialog.setMessage("正在获取天气，请稍后...");
         progressDialog.setCancelable(false);
     }
-//
+
     @Override
     protected void onPreExecute() {
         super.onPreExecute();
